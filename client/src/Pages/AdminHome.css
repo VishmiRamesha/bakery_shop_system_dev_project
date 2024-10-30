@@ -1,0 +1,132 @@
+/* AdminHome.css */
+
+.bg-image {
+  background-image: url('../Images/image1.png');
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  padding-top: 0px;
+}
+
+.admin-home-container {
+  display: flex;
+  flex-direction: raw;
+  margin-top: 2rem;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+.forms-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  height: fit-content;
+  padding: 15px;
+}
+
+.employee-form {
+  width: 300px;
+  padding: 30px;
+  border: 1px solid #CCB53E;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+  width: calc(100% - 10px);
+  padding: 8px;
+  border: 1px solid #CCB53E;
+  border-radius: 4px;
+}
+
+.buttons-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.buttons-container button {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.link-container {
+  margin-top: 40px;
+  color: #000000;
+  border-radius: 8px;
+  padding: 5px;
+  border: 1px solid #CCB53E;
+  background-color: #CCB53E;
+  justify-content: space-between;
+}
+
+.employee-table-container {
+  width: 60%;
+}
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 15px;
+}
+
+.employee-table th,
+.employee-table td {
+  border: 1px solid #CCB53E;
+  padding: 8px;
+  text-align: left;
+}
+
+.employee-table th {
+  background-color: #f2f2f2;
+}
+
+.employee-table td {
+  background-color: #fff;
+}
+
+.employee-table button {
+  margin-right: 5px;
+}
+
+.employee-table-container td:nth-child(7) {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.employee-form .refresh-button,
+.employee-table-container td:nth-child(7) button {
+  width: 90px;
+  height: 34.21px!important;
+  border: none;
+  border-radius: 2px;
+  color: #dfd9d9;
+}
+
+.refresh-button {
+  margin-top: 1rem;
+  background-color: #4ba112;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: #0fabb6;
+}
+
+.delete-button {
+  background-color: #c23434;
+}

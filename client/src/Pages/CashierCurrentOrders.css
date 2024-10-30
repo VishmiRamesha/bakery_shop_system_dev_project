@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-image {
+    background-image: url('../Images/image1.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+
+h1 {
+    color: #CCB53E;
+    font-size: 28px;
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    padding-top: 0.005px;
+}
+
+.order-info {
+    position: absolute;
+    top: 80px;
+    right: 400px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 6px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px #CCB53E(0,0,0,0.1);
+}
+
+.order-info p {
+    margin: 0;
+    padding: 5px 0;
+    font-size: 16px;
+}
+
+.box {
+    width: 600px;
+    height: 360px;
+    background-color: #ffffff;
+    border: 2px solid #CCB53E;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px #CCB53E(0,0,0,0.1);
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+th, td {
+    /* border: 1px solid #ddd; */
+    padding: 8px;
+    text-align: left;
+    font-weight: 100;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+.quantity-input {
+    position: absolute;
+    top: 600px; /* Adjust the position based on your layout */
+    left: 12px;
+    background-color: #CCB53E;
+    padding: 10px;
+    border: 1px solid #CCB53E;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+.quantity-input label {
+    margin-right: 10px;
+}
+
+.quantity-input input {
+    padding: 5px;
+    width:120px ;
+    font-size: 16px;
+}
+.add-to-cart {
+    background-color: #CCB53E;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+    bottom: 50px;
+    right: 1000px;
+}
+
+.add-to-cart:hover {
+    background-color: #ecc506;
+}
+.total-box {
+    position: fixed;
+    top: 520px; 
+    right: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #CCB53E;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 600px;
+}
+
+.total-box h3 {
+    margin: 10px 0;
+}
+
+.total-box input {
+    width: 20%;
+    padding: 8px;
+    margin-top: 10px;
+    border: 2px solid #CCB53E;
+    border-radius: 5px;
+}
+/* Add these styles to your CashierCurrentOrders.css */
+
+/* Existing styles for other elements */
+
+.delete-item  {
+    position: fixed; /* Fixed positioning */
+    bottom: 100px; /* Adjust as needed */
+    right: 24px; /* Adjust as needed */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border:2px solid #CCB53E;
+    border-radius: 12px;
+    transition: background-color 0.3s;
+}
+
+.delete-item:hover {
+    background-color: #CCB53E;
+}
+.cancel-order  {
+    position: fixed; /* Fixed positioning */
+    bottom: 20px; /* Adjust as needed */
+    right: 24px; /* Adjust as needed */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border:2px solid #CCB53E;
+    border-radius: 12px;
+    transition: background-color 0.3s;
+}
+.cancel-order:hover {
+    background-color: #CCB53E;
+}
+.place-order {
+    position: fixed; /* Fixed positioning */
+    background-color: #CCB53E;
+    bottom: 20px; /* Adjust as needed */
+    right: 200px; /* Adjust as needed */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s;
+
+}
+.place-order:hover {
+    background-color: #ecc506;
+}
+
+.cashiercurrentorderspage.refresh-button {
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    color: #dedede;
+    height: 25px;
+}
+
+

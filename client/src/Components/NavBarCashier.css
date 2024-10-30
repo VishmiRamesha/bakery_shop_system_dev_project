@@ -1,0 +1,33 @@
+/* styles.css */
+nav {
+    background-color: #D9D9D9;
+    height: 100px; /* Set the desired height */
+    padding: 0px; /* Remove default padding */
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    align-content: center;
+    display: bold;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #ababa6;
+}

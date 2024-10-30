@@ -1,0 +1,134 @@
+.bg-image {
+  background-image: url('../Images/image1.png');
+  background-size: cover; 
+  background-position: center; 
+  height: auto;
+  padding-top: 0px;
+  /* Add more styles as needed */
+}
+
+/* CashierHome.css */
+
+.cashier-home-container {
+  display: flex;
+  flex-direction: raw;
+  margin-top: 2rem;
+  justify-content: space-around;
+  height: 100vh; /* Adjust as needed for full page height */
+
+}
+
+.forms-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* Space between forms */
+  height: fit-content;
+  padding: 15px;
+}
+
+
+.item-form {
+  width: 300px;
+  padding: 30px;
+  border: 1px solid #CCB53E;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: calc(100% - 10px);
+  padding: 8px;
+  border: 1px solid #CCB53E;
+  border-radius: 4px;
+}
+
+.buttons-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #000000;
+}
+
+.buttons-container button {
+  width: 100%;
+  padding: 10px; /* Adjust button padding */
+  font-size: 14px
+}
+.link-container {
+  margin-top: 40px;
+  color: #000000;
+  border-radius: 8px;
+  padding: 5px;
+  border: 1px solid #CCB53E;
+  background-color: #CCB53E;
+  justify-content: space-between;
+}
+
+/* Ensure the table is styled and aligned properly */
+
+.item-table-container {
+width: 60%;
+}
+
+.item-table {
+width: 100%;
+border-collapse: collapse;
+border-radius: 15px;
+}
+
+.item-table th, .item-table td {
+border: 1px solid #CCB53E;
+padding: 8px;
+text-align: left;
+}
+
+.item-table th {
+background-color: #f2f2f2;
+}
+
+.item-table td {
+background-color: #fff;
+}
+
+.item-table button {
+margin-right: 5px;
+}
+
+.item-table-container td:nth-child(7) {
+width: auto;
+display: flex;
+justify-content: space-around;
+}
+
+.item-form .refresh-button,.item-table-container td:nth-child(7) button {
+width: 90px;
+height: 30px;
+border: none;
+border-radius: 2px;
+color: #dfd9d9;
+}
+
+.refresh-button {
+margin-top: 1rem;
+background-color: #4ba112;
+cursor: pointer;
+}
+
+.edit-button {
+background-color: #0fabb6;
+}
+
+.delete-button {
+background-color: #c23434;
+}
+

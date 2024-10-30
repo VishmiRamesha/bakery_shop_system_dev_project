@@ -1,0 +1,31 @@
+.order-details-box {
+    position: fixed;
+    top: 160px;
+    right: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #CCB53E;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    width: 600px; /* Adjust width as needed */
+    height: 300px;
+}
+
+.order-details-box h2 {
+    margin-bottom: 10px;
+}
+
+.order-details-box table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.order-details-box th, .order-details-box td {
+    border: 0px solid #CCB53E;
+    padding: 4px;
+    text-align: left;
+}
+
+.order-details-box th {
+    background-color: #f2f2f2;
+}

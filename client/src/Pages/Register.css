@@ -1,0 +1,101 @@
+.heading {
+	color: #ffffff;
+	font-size: 40px;
+	display: flex;
+	justify-content: left; /* Horizontal centering */
+	align-items: center; /* Vertical centering */
+	padding-left: 20px;
+	padding-top: 0.2px;
+}
+.register-heading {
+	color: #ccb53e;
+	font-size: 45px;
+	display: flex;
+	justify-content: center; /* Horizontal centering */
+	padding-top: 0.005px;
+}
+
+.bg-image {
+	background-image: url("../Images/image1.png");
+	background-size: cover;
+	background-position: center;
+    height: auto;
+
+	padding-top: 0px;
+
+	/* Add more styles as needed */
+}
+
+/* Style the login container */
+.register-container {
+	max-width: 500px;
+	margin: 10px auto; /* Center the container horizontally */
+	padding: 20px;
+	border: 1px solid #ccb53e;
+	border-radius: 5px;
+	background-color: #f9f9f9;
+	width: 100%;
+	height: auto;
+}
+
+/* Style form groups (labels and inputs) */
+.form-group {
+	margin-bottom: 15px;
+}
+
+/* Style labels */
+.form-group label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+/* Style inputs */
+.form-group input,
+.form-group select {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccb53e;
+	border-radius: 3px;
+}
+
+.register-container .button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+	width: 80% !important;
+	padding: 8px;
+	margin-top: 15px;
+	border: none;
+	border-radius: 10px;
+	background-color: #ccb53e;
+	color: #ffffff;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+/* Style the submit button on hover */
+button[type="submit"]:hover {
+	background-color: #d09f0c;
+}
+
+a {
+	display: block;
+	margin-top: 1rem;
+	padding: 2rem 1rem;
+	font-size: 1rem;
+	text-decoration: none;
+	color: #0e83b1;
+}
+
+.error {
+    color: #dd0000
+}
+
+.success {
+    color: #00dd00;
+}
